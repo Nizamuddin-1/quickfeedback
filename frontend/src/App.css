@@ -1,0 +1,87 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2.5rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.feedback-form button {
+  padding: 12px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.feedback-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.feedback-form button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feedback-card {
+  padding: 12px;
+  background-color: #f9fafb;
+  border-left: 4px solid #2563eb;
+  border-radius: 4px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.stars {
+  color: #f59e0b;
+}
+
+.date {
+  color: #6b7280;
+  margin-left: auto;
+  font-size: 0.8rem;
+}
+
+.card-body {
+  margin: 6px 0 0 0;
+  color: #4b5563;
+}
+
